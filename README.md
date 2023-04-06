@@ -15,23 +15,14 @@ Esse é um código que eu fiz com a ajuda do [tutorial](https://youtu.be/llF6vD-
 
 ## Como Executar o Projeto
 
-Para executar o projeto, basta abrir o arquivo `index.html` no seu navegador.
+Para executar o projeto, basta fazer o download ou clonar este repositório em seu computador. Em seguida, abra o arquivo index.html no seu navegador e a página será exibida.
 
 ## Estrutura do Projeto
 
-- `CSS`: Arquivo CSS que contém os estilos do site.
-- `index.html`: Página inicial do site.
-- `style.css`: Arquivo CSS que contém os estilos do site.
-
-## Contribuição
-
-Aceitamos contribuições. Para contribuir, basta seguir estas etapas:
-
-1. Crie um fork deste repositório.
-2. Crie um branch com suas alterações (`git checkout -b minha-branch`).
-3. Faça o commit de suas alterações (`git commit -am 'Adicionei novas funcionalidades'`).
-4. Faça o push para o branch (`git push origin minha-branch`).
-5. Abra um Pull Request.
+- `CSS/`: Pasta que contém o arquivo `style.css`, responsável por definir os estilos do site.
+- `Imagens/`: Diretório onde se encontra `todas`as mídias utilizadas no projeto.
+- `páginas/`: Está pasta ainda está em construção, porém é aqui onde todas as páginas do site estarão.
+- `index.html`: Arquivo príncipal do site.
 
 ## Licença
 
