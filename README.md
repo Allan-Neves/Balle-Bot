@@ -1,22 +1,12 @@
 # Landing Page Balle Bot
 
- <h3><a href="https://allan-carlos.github.io/Balle-Bot/">Clique aqui e você será redireciado para o site<a></h3>
+Esse é um código que eu fiz com a ajuda do [tutorial](https://youtu.be/llF6vD-RljE) da [Rafaela Ballerini](https://www.youtube.com/c/rafaellaballerini).
 
- Esse é um código que eu fiz com a ajuda do <a href="https://youtu.be/llF6vD-RljE">tutorial<a> da <a href="https://www.youtube.com/c/rafaellaballerini">Rafaela Ballerini<a>.
- 
- E assim ficou:
- 
- <img src="https://imgur.com/htMGyvM.png">
-
-# Meu Projeto de Site
-
-Este é um projeto de site simples usando HTML e CSS.
-
-![Screenshot do Site](./screenshot.png)
+![Screenshot do Site](https://imgur.com/htMGyvM.png)
 
 ## Demo
 
-Veja o projeto funcionando [aqui](https://meuprojetodesite.com).
+[Clique aqui](https://allan-carlos.github.io/Balle-Bot/) e você será redireciado para o site.
 
 ## Tecnologias Usadas
 
@@ -29,6 +19,7 @@ Para executar o projeto, basta abrir o arquivo `index.html` no seu navegador.
 
 ## Estrutura do Projeto
 
+- `CSS`: Arquivo CSS que contém os estilos do site.
 - `index.html`: Página inicial do site.
 - `style.css`: Arquivo CSS que contém os estilos do site.
 
