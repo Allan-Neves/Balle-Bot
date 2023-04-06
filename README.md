@@ -15,8 +15,6 @@ Esse é um código que eu fiz com a ajuda do [tutorial](https://youtu.be/llF6vD-
 
 ## Aprendizados
 
-# CSS
-
 Durante o desenvolvimento deste projeto, tive a oportunidade de aprender e utilizar diversas tecnologias, tanto no HTML quanto no CSS.
 
 No CSS, tive a minha primeira experiência com o flexbox, um recurso muito legal para criar layouts de forma prática. Além disso, descobri a existência das propriedades transform e transition, que me permitiram criar animações e efeitos interessantes nos elementos da página. Por fim, também utilizei o gap pela primeira vez, o que ajudou na criação de espaçamentos entre os elementos.
