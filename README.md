@@ -23,6 +23,8 @@ No HTML, conheci e utilizei as tags semânticas, como header, nav, main, section
 
 Foi uma experiência muito divertida e estou animado para continuar.
 
+(Toda a responsividade deste site foi feita 100% por mim.)
+
 ## Como Executar o Projeto
 
 Para executar o projeto, basta fazer o download ou clonar este repositório em seu computador. Em seguida, abra o arquivo index.html no seu navegador e a página será exibida.
