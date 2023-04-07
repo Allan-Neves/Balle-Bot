@@ -34,17 +34,23 @@ body {
     gap: 32px;
 }
 
-a:hover {
-    transition: 0.7s;
-    color: rgba(103, 29, 29, 0.775);
-    transform: scale(1.2);
-    }
-
 .cabecalho-menu-item {
     font-family: 'Sarala', sans-serif;
+    text-align: center;
     font-weight: 400;
     font-size: 18px;
     color: #FFF2E7;
+    padding: 13px 23px;
+    box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.616);
+    border-radius: 15px;
+    border: 2px solid #6d1a07;
+    transition: all 0.7s;
+}
+
+.cabecalho-menu-item:hover {
+    color: rgba(103, 29, 29, 0.775);
+    border: 2px solid #FFF2E7;
+    transform: scale(1.2);
 }
 
 .conteudo {
@@ -91,11 +97,11 @@ a:hover {
     font-weight: 400;
     font-size: 24px;
     color: #2F2325;
+    transition: 0.7s;
 }
 
 .conteudo-principal-escrito-botao:hover {
     background-color: rgba(236, 214, 196, 0.53);
-    transition: 0.7s;
 }
 
 .conteudo-principal-imagem {
@@ -158,7 +164,7 @@ p {
     transform: scale(0.98);
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 890px) {
     .conteudo-principal {
         margin-top: 25px;
         display: flex;
@@ -166,25 +172,18 @@ p {
         text-align: center;
     }
 
-    .display {
+    .cabecalho {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
     }
-}
 
-@media screen and (max-width: 685px) {
-    .cabecalho-imagem {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 560px) {
     .cabecalho-menu {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    .conteudo-principal-imagem {
-        height: 350px;
+    .cabecalho-imagem {
+        margin-bottom: 15px;
     }
+
 }
