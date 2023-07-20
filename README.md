@@ -6,7 +6,7 @@ Esse é um código que eu fiz com a ajuda do [tutorial](https://youtu.be/llF6vD-
 
 ## Demo
 
-[Clique aqui](https://allan-carlos.github.io/Balle-Bot/) e você será redireciado para o site.
+[Clique aqui](https://allan-carlos.github.io/Balle-Bot/) e você será redirecionado(a) para o site.
 
 ## Tecnologias Usadas
 
