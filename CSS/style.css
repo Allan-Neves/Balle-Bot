@@ -40,6 +40,11 @@ body, html {
 .cabecalho-menu ul li {
     list-style: none;
     display: inline-block;
+    transition: all 0.5s;
+}
+
+.cabecalho-menu ul li:hover {
+    transform: scale(1.05);
 }
 
 .cabecalho-menu-item {
@@ -52,14 +57,6 @@ body, html {
     margin-left: 10px;
     box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.616);
     border-radius: 15px;
-    border: 2px solid #6d1a07;
-    transition: all 0.7s;
-}
-
-.cabecalho-menu-item:hover {
-    color: rgba(103, 29, 29, 0.775);
-    border: 2px solid #FFF2E7;
-    transform: scale(1.2);
 }
 
 .conteudo {
@@ -72,6 +69,7 @@ body, html {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    margin: 0 15px;
 }
 
 .conteudo-principal-escrito {
@@ -96,6 +94,7 @@ body, html {
 }
 
 .conteudo-principal-escrito-botao {
+    cursor: pointer;
     background-color: #ECD6C4;
     width: 180px;
     height: 60px;
@@ -111,10 +110,6 @@ body, html {
 
 .conteudo-principal-escrito-botao:hover {
     background-color: rgba(236, 214, 196, 0.53);
-}
-
-.conteudo-principal-imagem {
-    height: 430px;
 }
 
 .conteudo-secundario {
@@ -201,4 +196,7 @@ p {
         margin-bottom: 15px;
     }
 
+    .conteudo-principal-imagem, .rodape-imagem {
+        width: 100%;
+    }
 }
